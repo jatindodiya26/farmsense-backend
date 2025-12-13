@@ -13,7 +13,7 @@ if (!GEMINI_API_KEY) {
 }
 
 const GEMINI_URL =
-  "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=" +
+  "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=" +
   GEMINI_API_KEY;
 
 app.post("/generateContent", async (req, res) => {
